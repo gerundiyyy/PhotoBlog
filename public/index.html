@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>PhotoBlog Test</title>
+  <style>
+    body {
+      color: #eee;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+    }
+    .container {
+      max-width: 700px;
+      width: 100%;
+    }
+    .post {
+      border: 1px solid #444;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 8px;
+      background: #222;
+    }
+    .post img {
+      width: 100%;
+      border-radius: 4px;
+    }
+    .title {
+      font-size: 24px;
+      margin-top: 10px;
+    }
+    .group {
+      font-size: 16px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container" id="posts"></div>
+
+  <script>
+    console.log('🌍 Инициализация запроса на /api/posts');
+
+    fetch('/api/posts')
+      .then(res => {
+        console.log('📡 Ответ сервера получен:', res);
+        return res.json();
+      })
+      .then(posts => {
+        console.log('📦 Получено постов:', posts.length);
+        const container = document.getElementById('posts');
+        posts.forEach((post, index) => {
+          console.log(`🖼️ Добавляется пост #${index + 1}: ${post.title}`);
+
+          const block = document.createElement('div');
+          block.className = 'post';
+          block.innerHTML = `
+            <img src="${post.link}" alt="${post.title}">
+            <div class="title">${post.title}</div>
+            <div class="group">${post.group}</div>
+          `;
+          container.appendChild(block);
+        });
+
+        console.log('✅ Все посты отрисованы');
+      })
+      .catch(err => {
+        console.error('❌ Ошибка при загрузке постов:', err);
+      });
+  </script>
+</body>
+</html>
