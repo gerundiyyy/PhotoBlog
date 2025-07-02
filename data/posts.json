@@ -4,5 +4,25 @@
     "title": "Gendos",
     "group" : "MusicHub",
     "link": "/images/gendos.jpg"
+  },
+
+  {
+    "id": 2,
+    "title": "Concert",
+    "group" : "BSAC",
+    "link": "/images/bsac.jpg"
+  },
+  {
+    "id": 3,
+    "title": "BerezaFest",
+    "group" : "Bereza",
+    "link": "/images/bereza.png"
+  },
+
+  {
+    "id": 4,
+    "title": "Walk",
+    "group" : "Minsk",
+    "link": "/images/bereg.jpg"
   }
 ]

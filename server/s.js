@@ -15,6 +15,6 @@ app.get('/api/posts', (req, res) => {
   res.json(data);
 });
 
-app.listen(3000, () => {
-  console.log('🚀 Сервер запущен на http://localhost:3000');
+app.listen(5500, () => {
+  console.log('🚀 Сервер запущен на http://localhost:5500');
 });
