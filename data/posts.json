@@ -2,27 +2,179 @@
   {
     "id": 1,
     "title": "Gendos",
-    "group" : "MusicHub",
-    "link": "/images/gendos.jpg"
+    "albumname": "Debut Album",
+    "year": 2023,
+    "coverImage": "/images/posts/gendos.jpg",
+    "heroImage": "/images/hero/gendos.jpg",
+    "description": "Наш первый студийный альбом, записанный в подвале общежития МГУ",
+    "tracks": [
+      {
+        "title": "Дым",
+        "duration": "3:45",
+        "audio": "/audio/gendos/01-dym.mp3"
+      },
+      {
+        "title": "Ветер",
+        "duration": "4:12",
+        "audio": "/audio/gendos/02-veter.mp3"
+      }
+    ],
+    "content": [
+      {
+        "type": "text",
+        "content": "Записано за 3 ночи между парами. Микрофон - подарок бабушки на 20-летие."
+      },
+      {
+        "type": "gallery",
+        "images": [
+          "/images/albums/gendos/studio1.jpg",
+          "/images/albums/gendos/live1.jpg"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://youtube.com/watch?v=gendos-live"
+      }
+    ]
   },
-
   {
     "id": 2,
-    "title": "Concert",
-    "group" : "BSAC",
-    "link": "/images/bsac.jpg"
+    "title": "BSAC Live",
+    "albumname": "Concert Album",
+    "year": 2024,
+    "coverImage": "/images/posts/bsac.jpg",
+    "heroImage": "/images/hero/bsac.jpg",
+    "description": "Запись легендарного концерта в клубе BSAC",
+    "tracks": [
+      {
+        "title": "Дым (Live)",
+        "duration": "4:01"
+      },
+      {
+        "title": "Ветер (Live)",
+        "duration": "4:35"
+      }
+    ],
+    "content": [
+      {
+        "type": "text",
+        "content": "Первый аншлаг в нашей истории. 150 человек и 2 пробитых барабана."
+      },
+      {
+        "type": "gallery",
+        "images": [
+          "/images/albums/bsac/crowd1.jpg",
+          "/images/albums/bsac/stage1.jpg"
+        ]
+      }
+    ]
   },
   {
     "id": 3,
     "title": "BerezaFest",
-    "group" : "Bereza",
-    "link": "/images/bereza.png"
+    "albumname": "Festival Compilation",
+    "year": 2024,
+    "coverImage": "/images/posts/bereza.png",
+    "heroImage": "/images/hero/bereza.jpg",
+    "description": "Выступление на крупнейшем indie-фестивале Беларуси",
+    "content": [
+      {
+        "type": "text",
+        "content": "Играли под дождём, но никто не ушёл. Спасибо за эту энергию!"
+      },
+      {
+        "type": "video",
+        "url": "https://youtube.com/watch?v=berezafest-live"
+      }
+    ]
   },
-
   {
     "id": 4,
-    "title": "Walk",
-    "group" : "Minsk",
-    "link": "/images/bereg.jpg"
+    "title": "Gendos",
+    "albumname": "Debut Album",
+    "year": 2023,
+    "coverImage": "/images/posts/gendos.jpg",
+    "heroImage": "/images/hero/gendos.jpg",
+    "description": "Наш первый студийный альбом, записанный в подвале общежития МГУ",
+    "tracks": [
+      {
+        "title": "Дым",
+        "duration": "3:45",
+        "audio": "/audio/gendos/01-dym.mp3"
+      },
+      {
+        "title": "Ветер",
+        "duration": "4:12",
+        "audio": "/audio/gendos/02-veter.mp3"
+      }
+    ],
+    "content": [
+      {
+        "type": "text",
+        "content": "Записано за 3 ночи между парами. Микрофон - подарок бабушки на 20-летие."
+      },
+      {
+        "type": "gallery",
+        "images": [
+          "/images/albums/gendos/studio1.jpg",
+          "/images/albums/gendos/live1.jpg"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://youtube.com/watch?v=gendos-live"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "BSAC Live",
+    "albumname": "Concert Album",
+    "year": 2024,
+    "coverImage": "/images/posts/bsac.jpg",
+    "heroImage": "/images/hero/bsac.jpg",
+    "description": "Запись легендарного концерта в клубе BSAC",
+    "tracks": [
+      {
+        "title": "Дым (Live)",
+        "duration": "4:01"
+      },
+      {
+        "title": "Ветер (Live)",
+        "duration": "4:35"
+      }
+    ],
+    "content": [
+      {
+        "type": "text",
+        "content": "Первый аншлаг в нашей истории. 150 человек и 2 пробитых барабана."
+      },
+      {
+        "type": "gallery",
+        "images": [
+          "/images/albums/bsac/crowd1.jpg",
+          "/images/albums/bsac/stage1.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "BerezaFest",
+    "albumname": "Festival Compilation",
+    "year": 2024,
+    "coverImage": "/images/posts/bereza.png",
+    "heroImage": "/images/hero/bereza.jpg",
+    "description": "Выступление на крупнейшем indie-фестивале Беларуси",
+    "content": [
+      {
+        "type": "text",
+        "content": "Играли под дождём, но никто не ушёл. Спасибо за эту энергию!"
+      },
+      {
+        "type": "video",
+        "url": "https://youtube.com/watch?v=berezafest-live"
+      }
+    ]
   }
 ]
